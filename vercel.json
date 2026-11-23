@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/", "destination": "/api/game?mode=docs" },
+    { "source": "/play", "destination": "/api/game" },
+    { "source": "/encode", "destination": "/api/game?mode=encode" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type" },
+        { "key": "X-Powered-By", "value": "NexGen Tech Zone" }
+      ]
+    }
+  ]
+}
