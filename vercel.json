@@ -12,8 +12,11 @@
         { "key": "Access-Control-Allow-Origin", "value": "*" },
         { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
         { "key": "Access-Control-Allow-Headers", "value": "Content-Type" },
-        { "key": "X-Powered-By", "value": "NexGen Tech Zone" }
+        { "key": "X-Powered-By", "value": "Empire Tech Zone" },
+        { "key": "X-API-Developer", "value": "Dark Empire" },
+        { "key": "X-API-Owner", "value": "SARDAR-DAUD-ARIAN" }
       ]
     }
   ]
 }
+
